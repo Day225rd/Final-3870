@@ -1,0 +1,18 @@
+/* public/styles.css */
+
+/* Width helpers for our cards */
+.form-max-width-400 { max-width: 400px; }
+.form-max-width-500 { max-width: 500px; }
+
+/* Theme backgrounds & text (you already have these) */
+body[data-theme="light"] {
+  background-color: #36587e;
+  color: #36587e;
+}
+body[data-theme="dark"] {
+  background-color: #36587e;
+  color: #36587e;
+}
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
